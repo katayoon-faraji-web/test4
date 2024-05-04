@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+@font-face {
+    font-family: font1;
+    src: url("../public/font/IRAN-Sans-Regular.ttf") format("opentype");
+ }
+ .inputStyle {
+    width: 3rem !important;
+    height: 3rem;
+    margin: 0 1rem;
+    font-size: 2rem;
+    border-radius:8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    @media  screen and (max-width: 900) {
+        width: 1.5rem !important;
+        height: 1.5rem;
+        font-size: 1rem;
+        
+      }
+  }
